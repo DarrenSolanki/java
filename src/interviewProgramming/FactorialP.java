@@ -4,7 +4,7 @@ public class FactorialP {
 
 	public static void main(String[] args) {
 
-		int num = 6;
+		int num = 5;
 //		5*4*3*2*1
 		int fact = 1;
 		
