@@ -4,7 +4,7 @@ interface C{
 	
 	void test1();
 	static void test2() {
-		System.out.println("Hi");
+		System.out.println("Hi....");
 	}
 	
 //	void test3(){
