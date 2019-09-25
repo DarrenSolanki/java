@@ -3,14 +3,14 @@ package interviewProgramming;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		String s = "moonnoom";
-		String rev = "";
+		String str = "Moonnoom";
+		String revStr = "";
 		
-		for(int i =s.length()-1; i>=0; i--) {
-			rev = rev + s.charAt(i);
+		for(int i =str.length()-1; i>=0; i--) {
+			revStr = revStr + str.charAt(i);
 		}
 		
-		if(s.equalsIgnoreCase(rev)) {
+		if(str.equalsIgnoreCase(revStr)) {
 			System.out.println("It is a Palindrome");
 		}
 		else {
